@@ -1,0 +1,9 @@
+[name]-[variant]-[step?].png
+
+rabbit-0.png
+rabbit-2-1.png
+
+variants:
+0: standing, facing user
+1: standing, facing right
+2: waling, facing right
