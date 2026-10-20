@@ -48,7 +48,7 @@ export default function App() {
   };
 
   onMount(async () => {
-    const { Engine, wasmMemory } = await import("./rust-wasm");
+    const { Engine, wasmMemory } = await import("./wasm");
 
     init_canvas();
 
