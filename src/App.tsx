@@ -5,9 +5,9 @@ import {
   type Accessor,
   type Setter,
 } from "solid-js";
-import type { Engine } from "./rust-wasm/rust_wasm";
 
 import "./canvas.css";
+import type { Engine } from "./wasm";
 
 // must be a power of 2
 const DOWNSCALE: number = 4;
